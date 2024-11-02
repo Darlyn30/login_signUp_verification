@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5lZCmVSpgQrVvquTinQpZLcSRi5PWx+adMuMQVAL4RI=",
+  "Source": "API_Mail",
+  "BasePath": "_content/API_Mail",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
