@@ -1,7 +1,7 @@
 // conexion a la API
 
 const URL = "https://localhost:7225/api/Trigger/cuenta_nueva"; // debe borrar desde aqui luego de verificar
-    const urlE = "https://localhost:7225/api/SendEmail/cuentas";
+
 
 const button = document.querySelector(".verify-button");
 function moveToNext(current, nextFieldID) {
@@ -21,7 +21,7 @@ function verificarCodigo() {
     .then(data => {
         for(let i = 0; i < data.length; i++){
             if(code == data[i].pin){
-                editarModel(data[i].pass, data[i].email, data[i].nombre);
+                editarModel(data[i].pass, data[i].email, true, data[i].nombre);
                 deleteD(data[i].email);
             } else {
                 alert("Codigo de verificacion no valido");
@@ -30,13 +30,15 @@ function verificarCodigo() {
     })
 }
 
-function editarModel(pass, mail, nombre){
+function editarModel(pass, mail, estatus, nombre){
+
+    const urlE = "https://localhost:7225/api/SendEmail/cuentas";
 
     const model = {
-        "clave": pass,
-        "email": mail,
-        "estatus" : true,
         "nombre": nombre,
+        "email": mail,
+        "clave": pass,
+        "estatus" : estatus,
         "pin": "",
     };
 

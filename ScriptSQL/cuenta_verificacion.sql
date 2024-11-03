@@ -26,6 +26,8 @@ create table cuenta_creadas --esta columna se guardara a traves de un disparador
 	Id int identity(1,1) primary key,
 	Pin varchar(4),
 	Email varchar(255),
+    Nombre varchar(255),
+    Clave varchar(255),
 	foreign key(Email) references cuentas(Email)
 
 )
@@ -77,6 +79,6 @@ BEGIN
     INSERT INTO sesion (Nombre, Email, Clave, Estatus, pin)
     VALUES (@Nombre, @Email, @Clave, @Estatus, @Pin);
 
-    -- Devuelve los datos seleccionados, si también quieres mostrarlos como resultado
+    -- Devuelve los datos seleccionados, si tambiï¿½n quieres mostrarlos como resultado
     SELECT @Nombre AS Nombre, @Email AS Email, @Clave AS Clave, @Estatus AS Estatus, @Pin AS Pin;
 END;
