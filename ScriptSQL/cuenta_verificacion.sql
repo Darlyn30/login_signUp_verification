@@ -26,27 +26,44 @@ create table cuenta_creadas --esta columna se guardara a traves de un disparador
 	Id int identity(1,1) primary key,
 	Pin varchar(4),
 	Email varchar(255),
-    Nombre varchar(255),
-    Clave varchar(255),
+
 	foreign key(Email) references cuentas(Email)
 
 )
 
+alter table cuenta_creadas add Nombre varchar(255)
+alter table cuenta_creadas add Clave varchar(255)
+
 select * from cuenta_creadas
 
+delete from cuenta_creadas
 
-create trigger almacenarPin
+
+alter trigger almacenarPin
 on cuentas
 after insert
 as
 begin
-	insert into cuenta_creadas(Email, Pin)
-	select Email, pin
+	insert into cuenta_creadas(Email, Pin, Nombre, Clave)
+	select Email, pin, Nombre, Clave
 	from inserted
 end
 
 
+create trigger changeEstatus
+on cuenta_creadas
+instead of delete
+as
+begin
+	    -- Actualizamos el campo Estatus en la tabla cuentas
+    UPDATE c
+    SET c.Estatus = 1  -- Cambia Estatus a 1 (activo)
+    FROM cuentas AS c
+    INNER JOIN deleted AS d ON c.Email = d.Email;
 
+    -- Ahora procedemos con la eliminación del registro en cuenta_creadas
+    DELETE FROM cuenta_creadas
+end
 
 
 select * from sesion
@@ -79,6 +96,8 @@ BEGIN
     INSERT INTO sesion (Nombre, Email, Clave, Estatus, pin)
     VALUES (@Nombre, @Email, @Clave, @Estatus, @Pin);
 
-    -- Devuelve los datos seleccionados, si tambiï¿½n quieres mostrarlos como resultado
+    -- Devuelve los datos seleccionados, si también quieres mostrarlos como resultado
     SELECT @Nombre AS Nombre, @Email AS Email, @Clave AS Clave, @Estatus AS Estatus, @Pin AS Pin;
 END;
+
+
