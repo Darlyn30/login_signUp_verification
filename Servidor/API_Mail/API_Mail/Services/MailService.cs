@@ -4,6 +4,7 @@ using System.Net;
 using API_Mail.Models;
 using API_Mail.Context;
 using Microsoft.EntityFrameworkCore;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace API_Mail.Services
 {
@@ -18,12 +19,6 @@ namespace API_Mail.Services
         {
             this._config = _config;
             this._context = _context;
-        }
-
-        public List<Cuentas> GetCuentas()
-        {
-            var result = _context.cuentas.ToList();
-            return result;
         }
 
         public void PutCuentas(Cuentas model)
@@ -62,5 +57,13 @@ namespace API_Mail.Services
             Task task = sendEmail(_mailModel.emailReceptor, _mailModel.tema, model.Pin);
             _context.SaveChanges();
         }
+
+        public List<Cuentas> GetCuentas()
+        {
+            var result = _context.cuentas.ToList();
+            return result;
+        }
+
+
     }
 }

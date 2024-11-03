@@ -6,8 +6,9 @@ namespace API_Mail.Interfaces
     {
         //el metodo para enviar el email
         Task sendEmail(string emailReceptor, string tema, string cuerpo);
-
         List<Cuentas> GetCuentas();
+
+
         void setCuentas(Cuentas model);
         void PutCuentas(Cuentas model);
     }

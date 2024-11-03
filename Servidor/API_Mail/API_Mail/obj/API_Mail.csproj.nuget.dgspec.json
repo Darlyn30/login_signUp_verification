@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zombe\\Videos\\proyectos javascript\\login\\Servidor\\API_Mail\\API_Mail\\API_Mail.csproj": {}
+    "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\API_Mail.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zombe\\Videos\\proyectos javascript\\login\\Servidor\\API_Mail\\API_Mail\\API_Mail.csproj": {
+    "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\API_Mail.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zombe\\Videos\\proyectos javascript\\login\\Servidor\\API_Mail\\API_Mail\\API_Mail.csproj",
+        "projectUniqueName": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\API_Mail.csproj",
         "projectName": "API_Mail",
-        "projectPath": "C:\\Users\\zombe\\Videos\\proyectos javascript\\login\\Servidor\\API_Mail\\API_Mail\\API_Mail.csproj",
+        "projectPath": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\API_Mail.csproj",
         "packagesPath": "C:\\Users\\zombe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zombe\\Videos\\proyectos javascript\\login\\Servidor\\API_Mail\\API_Mail\\obj\\",
+        "outputPath": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zombe\\AppData\\Roaming\\NuGet\\NuGet.Config",

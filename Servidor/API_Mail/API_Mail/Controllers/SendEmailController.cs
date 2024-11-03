@@ -21,8 +21,6 @@ namespace API_Mail.Controllers
             
         }
 
- 
-
         [HttpGet("cuentas")]
 
         public IActionResult getCuentas()
@@ -37,6 +35,7 @@ namespace API_Mail.Controllers
         {
             oSend.setCuentas(model);
         }
+
         [HttpPut("cuentas")]
         public void putCuentas(Cuentas model)
         {

@@ -13,9 +13,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var conn = builder.Configuration.GetConnectionString("AppConnection");
+var conn = builder.Configuration.GetConnectionString("AppConnection");// agregamos la base de datos
+
+// agregamos los contextos
 builder.Services.AddDbContext<CuentasContext>(x => x.UseSqlServer(conn));
+builder.Services.AddDbContext<SesionContext>(x => x.UseSqlServer(conn));
+builder.Services.AddDbContext<TriggerContext>(x => x.UseSqlServer(conn));
+
 builder.Services.AddTransient<ISend, MailService>();
+builder.Services.AddScoped<ISesion, SesionService>();
+builder.Services.AddScoped<ITrigger, TriggerService>();
 
 var app = builder.Build();
 
