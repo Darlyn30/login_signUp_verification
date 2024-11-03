@@ -26,7 +26,7 @@ logoutButton.addEventListener('click', function() {
 function borrarSesion(mail){
     const url = `https://localhost:7225/api/Sesion?email=${encodeURIComponent(mail)}`;
 
-    fetch(URL, {
+    fetch(url, {
         method: "DELETE",
         headers : {
           'Content-Type' : 'application/json'
@@ -35,4 +35,6 @@ function borrarSesion(mail){
     .then(res => {
         console.log("success", res);
     })
+
+    console.log(data);
 }

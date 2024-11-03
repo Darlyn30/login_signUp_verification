@@ -21,7 +21,6 @@ function verificarCodigo() {
     .then(data => {
         for(let i = 0; i < data.length; i++){
             if(code == data[i].pin){
-                editarModel(data[i].pass, data[i].email, true, data[i].nombre);
                 deleteD(data[i].email);
             } else {
                 alert("Codigo de verificacion no valido");
@@ -30,32 +29,6 @@ function verificarCodigo() {
     })
 }
 
-function editarModel(pass, mail, estatus, nombre){
-
-    const urlE = "https://localhost:7225/api/SendEmail/cuentas";
-
-    const model = {
-        "nombre": nombre,
-        "email": mail,
-        "clave": pass,
-        "estatus" : estatus,
-        "pin": "",
-    };
-
-    fetch(urlE, {
-        method : "PUT",
-        headers: {
-          'Content-Type' : 'application/json'
-        },
-        body : JSON.stringify(model)
-    })
-    .then(res => {
-        console.log("success", res);
-        alert("Cuenta verificada");
-        window.location = "../index.html";
-    })
-    .catch(err => console.log("Error: ", err));
-}
 
 function deleteD(email){
     const urlD = `https://localhost:7225/api/Trigger/cuenta_nueva?correo=${encodeURIComponent(email)}`;//para eliminar desde aqui despues de verificar
@@ -68,6 +41,15 @@ function deleteD(email){
     })
     .then(res => {
         console.log("success", res);
+
+        swal({
+            title: "Cuenta verificada exitosamente!",
+            text: `Puedes iniciar sesion`,
+            icon: "success",
+        })
+        .then(res => {
+            window.location = "../home/home.html";
+        })
     })
 }
 

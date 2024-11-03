@@ -1,6 +1,6 @@
 // conexion a la API
 
-const URL = "https://localhost:7225/api/SendEmail/cuentas"; //para registrarse y para loguearseutilizare esta url
+const URL = "https://localhost:7225/api/SendEmail/cuentas"; //para registrarse y para loguearse utilizare esta url
 
 const container = document.getElementById('container');
 const registerBtn = document.getElementById('register');
@@ -39,6 +39,36 @@ fetch(URL)
 function iniciarSesion(){
     let mail = inputs.mailLog.value;
     let pass = inputs.passLog.value;
+
+    fetch(URL)
+    .then(res => res.json())
+    .then(data => {
+
+        for(let i = 0; i < data.length; i++){
+            
+            if(mail == data[i].email && pass == data[i].clave){
+
+                if(data[i].estatus == true){
+                    swal({
+                        title: "Inicio de sesion con exito!",
+                        text: `Bienvenido ${data[i].nombre}`,
+                        icon: "success",
+                    })
+                    .then(res => {
+                        window.location = "./home/home.html";
+                    })
+                } else {
+                    swal({
+                        title: "Advertencia!",
+                        text: `Su cuenta no ha sido verificada`,
+                        icon: "warning",
+                    })
+                }
+    
+            }
+        }
+
+    })
 
 }
 
