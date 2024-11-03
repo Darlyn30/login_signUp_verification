@@ -1,7 +1,7 @@
 // conexion a la API
 
-const URL = "https://localhost:7225/api/SendEmail/cuentas";
-
+const URL = "https://localhost:7225/api/Trigger/cuenta_nueva"; // debe borrar desde aqui luego de verificar
+    const urlE = "https://localhost:7225/api/SendEmail/cuentas";
 
 const button = document.querySelector(".verify-button");
 function moveToNext(current, nextFieldID) {
@@ -15,31 +15,32 @@ function moveToNext(current, nextFieldID) {
 
 function verificarCodigo() {
     const code = Array.from(document.querySelectorAll('.code-input')).map(input => input.value).join('');
+    
     fetch(URL)
-    .then(res=>res.json())
+    .then(res => res.json())
     .then(data => {
         for(let i = 0; i < data.length; i++){
             if(code == data[i].pin){
-                editarModel(data[i].clave, data[i].email, true, data[i].nombre);
+                editarModel(data[i].pass, data[i].email, data[i].nombre);
+                deleteD(data[i].email);
             } else {
                 alert("Codigo de verificacion no valido");
             }
         }
-    })    
-
+    })
 }
 
-function editarModel(pass, mail, estatus, nombre){
+function editarModel(pass, mail, nombre){
 
     const model = {
         "clave": pass,
         "email": mail,
-        "estatus" : estatus,
+        "estatus" : true,
         "nombre": nombre,
         "pin": "",
     };
 
-    fetch(URL, {
+    fetch(urlE, {
         method : "PUT",
         headers: {
           'Content-Type' : 'application/json'
@@ -51,8 +52,22 @@ function editarModel(pass, mail, estatus, nombre){
         alert("Cuenta verificada");
         window.location = "../index.html";
     })
+    .catch(err => console.log("Error: ", err));
 }
 
+function deleteD(email){
+    const urlD = `https://localhost:7225/api/Trigger/cuenta_nueva?correo=${encodeURIComponent(email)}`;//para eliminar desde aqui despues de verificar
+    
+    fetch(urlD, {
+        method: "DELETE",
+        headers : {
+          'Content-Type' : 'application/json'
+        },
+    })
+    .then(res => {
+        console.log("success", res);
+    })
+}
 
 button.addEventListener("click", () => {
     verificarCodigo();
