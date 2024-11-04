@@ -48,7 +48,7 @@ function deleteD(email){
             icon: "success",
         })
         .then(res => {
-            window.location = "../home/home.html";
+            window.location = "../index.html";
         })
     })
 }

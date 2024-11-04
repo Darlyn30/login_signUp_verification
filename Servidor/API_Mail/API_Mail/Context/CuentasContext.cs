@@ -14,6 +14,8 @@ namespace API_Mail.Context
 
         public DbSet<Cuentas> cuentas { get; set; }
 
+        //esto ejecuta un trigger, que almacena el pin que recibe esa cuenta por correo, para poder verificarlo
+        // al verificar que el pin es correcto, todo lo que se almaceno a traves de este trigger, es eliminado
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Cuentas>()

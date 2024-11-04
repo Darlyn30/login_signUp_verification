@@ -39,6 +39,7 @@ fetch(URL)
 function iniciarSesion(){
     let mail = inputs.mailLog.value;
     let pass = inputs.passLog.value;
+    const urlSesion = `https://localhost:7225/api/Sesion/sesion?email=${encodeURIComponent(mail)}`;
 
     fetch(URL)
     .then(res => res.json())
@@ -49,12 +50,32 @@ function iniciarSesion(){
             if(mail == data[i].email && pass == data[i].clave){
 
                 if(data[i].estatus == true){
+
+                    do {
+                        /**
+                         * esto es que cuando se ejecute esta funcion,ejecutara el SP, de la db
+                         * que inserta los datos en la tabla sesion, y cuando hagamos un log out, se eliminara
+                         * sirve para tener un buen control para la sesion que esta iniciada
+                         */
+                        fetch(urlSesion, {
+                            method: "GET",
+                            headers: {
+                                'Content-Type' : 'application/json'
+                            }
+                        })
+                    } while(data == null)
+
+
+
                     swal({
                         title: "Inicio de sesion con exito!",
                         text: `Bienvenido ${data[i].nombre}`,
                         icon: "success",
                     })
                     .then(res => {
+
+
+                        console.log("success", res);
                         window.location = "./home/home.html";
                     })
                 } else {

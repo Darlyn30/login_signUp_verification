@@ -21,12 +21,8 @@ namespace API_Mail.Services
             this._context = _context;
         }
 
-        public void PutCuentas(Cuentas model)
-        {
-            _context.Entry(model).State = EntityState.Modified;
-            _context.SaveChanges();
-        }
 
+        // se ecarga de enviar el email a los correos
         public async Task sendEmail(string emailReceptor, string tema, string cuerpo)
         {
 

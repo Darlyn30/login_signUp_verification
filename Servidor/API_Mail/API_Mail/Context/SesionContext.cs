@@ -12,6 +12,12 @@ namespace API_Mail.Context
         }
         public DbSet<Sesion> sesion { get; set; }
 
+        /*
+        esta funcion se encarga de ejecutar el SP, que inserta los datos en la tabla sesion
+        para controlar la sesion con la cuenta que esta iniciada, no debe permitir 2 sesiones al mismo tiempo
+        almenos desde el mismo pc, aunque esta en local y no es algo 'profesional'
+         
+        */
         public async Task<List<Sesion>> ConsultarSesionPorEmailAsync(string email)
         {
             var emailParam = new SqlParameter("@Email", email);

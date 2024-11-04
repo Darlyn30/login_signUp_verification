@@ -13,6 +13,8 @@ namespace API_Mail.Services
         {
             this._context = _context;
         }
+
+        // se ejecuta cuando se cierra sesion en la pagina, y registra el correo que hay en la tabla de sesion
         public void deleteSesion(string email)
         {
             var registro = _context.sesion.Where(user => user.Email == email).FirstOrDefault();

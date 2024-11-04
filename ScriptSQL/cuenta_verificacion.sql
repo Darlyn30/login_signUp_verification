@@ -50,6 +50,8 @@ begin
 end
 
 
+--este trigger se encarga de que la cuenta sea verificada luego de ingresar el codigo de verificacion que recibe por gmail
+
 create trigger changeEstatus
 on cuenta_creadas
 instead of delete
@@ -97,7 +99,16 @@ BEGIN
     VALUES (@Nombre, @Email, @Clave, @Estatus, @Pin);
 
     -- Devuelve los datos seleccionados, si también quieres mostrarlos como resultado
-    SELECT @Nombre AS Nombre, @Email AS Email, @Clave AS Clave, @Estatus AS Estatus, @Pin AS Pin;
+    SELECT @Nombre AS Nombre, @Email AS Email, @Clave AS Clave, @Estatus AS Estatus, @Pin AS pin;
 END;
 
+select * from sesion
+
+
+
+delete from sesion
+
+delete from cuentas
+
+select * from cuentas
 

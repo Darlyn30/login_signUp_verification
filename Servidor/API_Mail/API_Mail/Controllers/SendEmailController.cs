@@ -35,11 +35,5 @@ namespace API_Mail.Controllers
         {
             oSend.setCuentas(model);
         }
-
-        [HttpPut("cuentas")]
-        public void putCuentas(Cuentas model)
-        {
-            oSend.PutCuentas(model);
-        }
     }
 }

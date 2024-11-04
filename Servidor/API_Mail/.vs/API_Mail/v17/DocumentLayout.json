@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\zombe\\source\\repos\\API_Mail\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\interfaces\\isesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\interfaces\\isesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\services\\triggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\services\\triggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\services\\sesionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\services\\sesionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\services\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\services\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\services\\pinrandomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\services\\pinrandomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\controllers\\sendemailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\controllers\\sendemailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\interfaces\\isend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\interfaces\\isend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\context\\cuentascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\context\\cuentascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\context\\sesioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +43,24 @@
       "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\context\\triggercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\context\\cuentascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\context\\cuentascontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\services\\triggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\services\\triggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\models\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\models\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\models\\cuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\models\\cuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\interfaces\\isesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\interfaces\\isesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\models\\trigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\models\\trigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\controllers\\sendemailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\controllers\\sendemailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\controllers\\triggercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,40 +71,8 @@
       "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\interfaces\\itrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\services\\sesionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\services\\sesionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\models\\cuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\models\\cuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\controllers\\sesioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\services\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\services\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\models\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\models\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\interfaces\\isend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\interfaces\\isend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\services\\pinrandomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|solutionrelative:api_mail\\services\\pinrandomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CA0C73D-B575-4E38-BBC0-42BB338E4BB8}|API_Mail\\API_Mail.csproj|c:\\users\\zombe\\source\\repos\\api_mail\\api_mail\\models\\mailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,95 +93,137 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SesionContext.cs",
-              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Context\\SesionContext.cs",
-              "RelativeDocumentMoniker": "API_Mail\\Context\\SesionContext.cs",
-              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Context\\SesionContext.cs",
-              "RelativeToolTip": "API_Mail\\Context\\SesionContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T19:27:22.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Cuentas.cs",
-              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Models\\Cuentas.cs",
-              "RelativeDocumentMoniker": "API_Mail\\Models\\Cuentas.cs",
-              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Models\\Cuentas.cs",
-              "RelativeToolTip": "API_Mail\\Models\\Cuentas.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T02:37:15.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Program.cs",
-              "RelativeDocumentMoniker": "API_Mail\\Program.cs",
-              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Program.cs",
-              "RelativeToolTip": "API_Mail\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T00:06:28.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SendEmailController.cs",
-              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Controllers\\SendEmailController.cs",
-              "RelativeDocumentMoniker": "API_Mail\\Controllers\\SendEmailController.cs",
-              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Controllers\\SendEmailController.cs",
-              "RelativeToolTip": "API_Mail\\Controllers\\SendEmailController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAwCYAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T00:18:49.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TriggerService.cs",
-              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\TriggerService.cs",
-              "RelativeDocumentMoniker": "API_Mail\\Services\\TriggerService.cs",
-              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\TriggerService.cs",
-              "RelativeToolTip": "API_Mail\\Services\\TriggerService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T22:40:01.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TriggerContext.cs",
-              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Context\\TriggerContext.cs",
-              "RelativeDocumentMoniker": "API_Mail\\Context\\TriggerContext.cs",
-              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Context\\TriggerContext.cs",
-              "RelativeToolTip": "API_Mail\\Context\\TriggerContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T22:40:12.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CuentasContext.cs",
               "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Context\\CuentasContext.cs",
               "RelativeDocumentMoniker": "API_Mail\\Context\\CuentasContext.cs",
               "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Context\\CuentasContext.cs",
               "RelativeToolTip": "API_Mail\\Context\\CuentasContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T02:39:59.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SesionController.cs",
+              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Controllers\\SesionController.cs",
+              "RelativeDocumentMoniker": "API_Mail\\Controllers\\SesionController.cs",
+              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Controllers\\SesionController.cs",
+              "RelativeToolTip": "API_Mail\\Controllers\\SesionController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwCkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:37:12.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PINrandomService.cs",
+              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\PINrandomService.cs",
+              "RelativeDocumentMoniker": "API_Mail\\Services\\PINrandomService.cs",
+              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\PINrandomService.cs",
+              "RelativeToolTip": "API_Mail\\Services\\PINrandomService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:11:38.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MailService.cs",
+              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\MailService.cs",
+              "RelativeDocumentMoniker": "API_Mail\\Services\\MailService.cs",
+              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\MailService.cs",
+              "RelativeToolTip": "API_Mail\\Services\\MailService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwBgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:04:30.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISend.cs",
+              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Interfaces\\ISend.cs",
+              "RelativeDocumentMoniker": "API_Mail\\Interfaces\\ISend.cs",
+              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Interfaces\\ISend.cs",
+              "RelativeToolTip": "API_Mail\\Interfaces\\ISend.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:03:43.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SendEmailController.cs",
+              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Controllers\\SendEmailController.cs",
+              "RelativeDocumentMoniker": "API_Mail\\Controllers\\SendEmailController.cs",
+              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Controllers\\SendEmailController.cs",
+              "RelativeToolTip": "API_Mail\\Controllers\\SendEmailController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:18:49.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SesionService.cs",
+              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\SesionService.cs",
+              "RelativeDocumentMoniker": "API_Mail\\Services\\SesionService.cs",
+              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\SesionService.cs",
+              "RelativeToolTip": "API_Mail\\Services\\SesionService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAkwBAAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T18:50:16.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TriggerService.cs",
+              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\TriggerService.cs",
+              "RelativeDocumentMoniker": "API_Mail\\Services\\TriggerService.cs",
+              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\TriggerService.cs",
+              "RelativeToolTip": "API_Mail\\Services\\TriggerService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T22:40:01.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SesionContext.cs",
+              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Context\\SesionContext.cs",
+              "RelativeDocumentMoniker": "API_Mail\\Context\\SesionContext.cs",
+              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Context\\SesionContext.cs",
+              "RelativeToolTip": "API_Mail\\Context\\SesionContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T19:27:22.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TriggerContext.cs",
+              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Context\\TriggerContext.cs",
+              "RelativeDocumentMoniker": "API_Mail\\Context\\TriggerContext.cs",
+              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Context\\TriggerContext.cs",
+              "RelativeToolTip": "API_Mail\\Context\\TriggerContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T22:40:12.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ISesion.cs",
               "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Interfaces\\ISesion.cs",
               "RelativeDocumentMoniker": "API_Mail\\Interfaces\\ISesion.cs",
@@ -189,24 +231,47 @@
               "RelativeToolTip": "API_Mail\\Interfaces\\ISesion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T19:24:44.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T19:24:44.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Sesion.cs",
+              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Models\\Sesion.cs",
+              "RelativeDocumentMoniker": "API_Mail\\Models\\Sesion.cs",
+              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Models\\Sesion.cs",
+              "RelativeToolTip": "API_Mail\\Models\\Sesion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T17:34:15.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cuentas.cs",
+              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Models\\Cuentas.cs",
+              "RelativeDocumentMoniker": "API_Mail\\Models\\Cuentas.cs",
+              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Models\\Cuentas.cs",
+              "RelativeToolTip": "API_Mail\\Models\\Cuentas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:37:15.174Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "SesionService.cs",
-              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\SesionService.cs",
-              "RelativeDocumentMoniker": "API_Mail\\Services\\SesionService.cs",
-              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\SesionService.cs",
-              "RelativeToolTip": "API_Mail\\Services\\SesionService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBMAAAAjAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Program.cs",
+              "RelativeDocumentMoniker": "API_Mail\\Program.cs",
+              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Program.cs",
+              "RelativeToolTip": "API_Mail\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwBMAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T18:50:16.182Z"
+              "WhenOpened": "2024-11-02T00:06:28.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "ITrigger.cs",
               "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Interfaces\\ITrigger.cs",
               "RelativeDocumentMoniker": "API_Mail\\Interfaces\\ITrigger.cs",
@@ -218,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "Trigger.cs",
               "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Models\\Trigger.cs",
               "RelativeDocumentMoniker": "API_Mail\\Models\\Trigger.cs",
@@ -230,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "TriggerController.cs",
               "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Controllers\\TriggerController.cs",
               "RelativeDocumentMoniker": "API_Mail\\Controllers\\TriggerController.cs",
@@ -242,19 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ISend.cs",
-              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Interfaces\\ISend.cs",
-              "RelativeDocumentMoniker": "API_Mail\\Interfaces\\ISend.cs",
-              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Interfaces\\ISend.cs",
-              "RelativeToolTip": "API_Mail\\Interfaces\\ISend.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T00:03:43.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\appsettings.json",
               "RelativeDocumentMoniker": "API_Mail\\appsettings.json",
@@ -263,54 +316,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-02T00:08:05.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MailService.cs",
-              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\MailService.cs",
-              "RelativeDocumentMoniker": "API_Mail\\Services\\MailService.cs",
-              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\MailService.cs",
-              "RelativeToolTip": "API_Mail\\Services\\MailService.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAgwD8AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T00:04:30.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SesionController.cs",
-              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Controllers\\SesionController.cs",
-              "RelativeDocumentMoniker": "API_Mail\\Controllers\\SesionController.cs",
-              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Controllers\\SesionController.cs",
-              "RelativeToolTip": "API_Mail\\Controllers\\SesionController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T17:37:12.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Sesion.cs",
-              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Models\\Sesion.cs",
-              "RelativeDocumentMoniker": "API_Mail\\Models\\Sesion.cs",
-              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Models\\Sesion.cs",
-              "RelativeToolTip": "API_Mail\\Models\\Sesion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T17:34:15.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PINrandomService.cs",
-              "DocumentMoniker": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\PINrandomService.cs",
-              "RelativeDocumentMoniker": "API_Mail\\Services\\PINrandomService.cs",
-              "ToolTip": "C:\\Users\\zombe\\source\\repos\\API_Mail\\API_Mail\\Services\\PINrandomService.cs",
-              "RelativeToolTip": "API_Mail\\Services\\PINrandomService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wB4AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T00:11:38.009Z"
             },
             {
               "$type": "Document",

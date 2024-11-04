@@ -22,6 +22,9 @@ logoutButton.addEventListener('click', function() {
     }
 });
 
+fetch("https://localhost:7225/api/Sesion")
+.then(res => res.json())
+.then(data => console.log(data))
 
 function borrarSesion(mail){
     const url = `https://localhost:7225/api/Sesion?email=${encodeURIComponent(mail)}`;

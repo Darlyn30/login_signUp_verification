@@ -2,6 +2,9 @@
 {
     public class PINrandomService
     {
+        /*
+        Esta clase se encarga de generar un pin random 
+        */
         Random random = new Random();
         private static PINrandomService instance;
 

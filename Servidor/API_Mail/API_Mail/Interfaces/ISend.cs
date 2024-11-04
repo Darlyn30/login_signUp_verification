@@ -10,6 +10,6 @@ namespace API_Mail.Interfaces
 
 
         void setCuentas(Cuentas model);
-        void PutCuentas(Cuentas model);
+        
     }
 }
