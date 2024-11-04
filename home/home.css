@@ -1,47 +1,57 @@
-/* Estilos para centrar el contenido */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    margin: 0;
+    background-color: #f4f4f9;
+    position: relative;
 }
-
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-h1 {
-    color: #333;
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-button#logoutButton {
+.logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
     padding: 10px 20px;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #ff4d4d;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
 }
-
-button#logoutButton:hover {
-    background-color: #ff1a1a;
+.logout-button:hover {
+    background-color: #c0392b;
 }
-
-main {
+.container {
     text-align: center;
-    font-size: 1.2rem;
-    color: #555;
+}
+.profile {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.profile input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #45a049;
 }

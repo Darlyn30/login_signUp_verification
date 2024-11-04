@@ -1,6 +1,7 @@
 // conexion a la API
 
 const URL = "https://localhost:7225/api/SendEmail/cuentas"; //para registrarse y para loguearse utilizare esta url
+let url2 = "https://localhost:7225/api/Sesion";
 
 const container = document.getElementById('container');
 const registerBtn = document.getElementById('register');
@@ -34,6 +35,22 @@ fetch(URL)
     console.log(data);
 })
 
+fetch(url2)
+.then(res => res.json())
+.then(data => {
+    for(let i = 0; i < data.length; i++){
+        if(data[i].email != ""){
+            window.location = "./home/home.html";
+        } else {
+            window.location = "./index.html";
+        }
+    }
+    
+})
+
+
+
+
 //login completado
 
 function iniciarSesion(){
@@ -47,6 +64,10 @@ function iniciarSesion(){
 
         for(let i = 0; i < data.length; i++){
             
+
+
+
+
             if(mail == data[i].email && pass == data[i].clave){
 
                 if(data[i].estatus == true){
@@ -64,8 +85,6 @@ function iniciarSesion(){
                             }
                         })
                     } while(data == null)
-
-
 
                     swal({
                         title: "Inicio de sesion con exito!",

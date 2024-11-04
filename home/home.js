@@ -1,5 +1,16 @@
 // Seleccionar el botón de Log Out
-const logoutButton = document.getElementById('logoutButton');
+const logoutButton = document.querySelector('.logout-button');
+
+const inputs = {
+    nombre: document.querySelector(".name"),
+    correo: document.querySelector(".mail"),
+    pass : document.querySelector(".pass"),
+}
+
+
+
+showInfo();
+
 
 // Añadir un evento para el click en el botón
 logoutButton.addEventListener('click', function() {
@@ -18,9 +29,12 @@ logoutButton.addEventListener('click', function() {
             }
         })
         alert('Has cerrado sesión');
-        window.location.href = '../index.html'; // Redirigir a la página de login (ajusta la ruta según tu proyecto)
+        window.location.href = '../index.html'; // Redirigir a la página de login 
     }
 });
+
+
+
 
 fetch("https://localhost:7225/api/Sesion")
 .then(res => res.json())
@@ -41,3 +55,29 @@ function borrarSesion(mail){
 
     console.log(data);
 }
+
+function showInfo(){
+    let url = "https://localhost:7225/api/Sesion";
+
+
+
+
+    fetch(url)
+    .then(res => res.json())
+    .then(data => {
+        for(let i = 0; i < data.length; i++){
+
+            let nombre = inputs.nombre.value = data[i].nombre ;
+            let mail = inputs.correo.value = data[i].email;
+            let pass = inputs.pass.value = data[i].clave;
+
+            console.log(nombre, mail, pass);
+        }
+    })
+}
+
+function toggleProfile() {
+    const profile = document.getElementById('profile');
+    profile.style.display = profile.style.display === 'none' || profile.style.display === '' ? 'block' : 'none';
+}
+

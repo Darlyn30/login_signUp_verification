@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./home.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a la Página Principal</h1>
-        <button id="logoutButton">Log Out</button>
-    </header>
-    <main>
-        <p>Este es el contenido principal de la página.</p>
-    </main>
-    
+    <button class="logout-button">Log Out</button>
+
+    <div class="container">
+        <h1>Home</h1>
+        <button class="button" onclick="toggleProfile()">Ver Perfil</button>
+        
+        <div class="profile" id="profile">
+            <h2>Perfil</h2>
+            <label>Nombre:</label>
+            <input type="text" class="name" readonly>
+            
+            <label>Correo:</label>
+            <input type="email" class="mail" readonly>
+            
+            <label>Contraseña:</label>
+            <input type="password" class="pass" readonly>
+        </div>
+    </div>
     <script src="./home.js"></script>
 </body>
 </html>
