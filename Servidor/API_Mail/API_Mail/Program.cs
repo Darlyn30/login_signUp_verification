@@ -21,8 +21,8 @@ builder.Services.AddDbContext<SesionContext>(x => x.UseSqlServer(conn));
 builder.Services.AddDbContext<TriggerContext>(x => x.UseSqlServer(conn));
 
 builder.Services.AddTransient<ISend, MailService>();
-builder.Services.AddScoped<ISesion, SesionService>();
-builder.Services.AddScoped<ITrigger, TriggerService>();
+builder.Services.AddTransient<ISesion, SesionService>();
+builder.Services.AddTransient<ITrigger, TriggerService>();
 
 var app = builder.Build();
 
